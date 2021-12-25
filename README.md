@@ -52,3 +52,21 @@ $ yc compute instance create \
     --metadata 'serial-port-enable=1' \
     --metadata-from-file user-data=cloud-config-testapp
 ```
+
+### Packer
+
+1. Prepare packer config with JSON file and parametrize it with user variables
+2. Bake an image and save it in a cloud
+3. Finally, run a machine from the image:
+
+```bash
+$ yc compute instance create \
+    --zone ru-central1-a \
+    --name reddit-app \
+    --hostname reddit-app \
+    --memory=2 \
+    --create-boot-disk image-name=reddit-base-1640416379,size=10GB \
+    --network-interface subnet-name=infra-ru-central1-a,nat-ip-version=ipv4 \
+    --metadata 'serial-port-enable=1' \
+    --metadata-from-file user-data=data/cloud-config-redditapp
+```
