@@ -1,0 +1,7 @@
+{
+    "service_account_key_file": "../data/key.json",
+    "folder_id": "uYZsgTQPbcUuCg9fs3bU",
+    "source_image_family": "ubuntu-1604-lts",
+    "instance_cores": "2",
+    "instance_name": "reddit-app-base"
+}
