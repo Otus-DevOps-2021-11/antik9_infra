@@ -1,0 +1,9 @@
+{
+    "service_account_key_file": "files/key.json",
+    "folder_id": "uYZsgTQPbcUuCg9fs3bU",
+    "source_image_family": "ubuntu-1604-lts",
+    "instance_cores": "2",
+    "instance_name": "reddit-app-base",
+    "subnet_id": "zdn0L7SjDAUbeBC5oQSQ",
+    "zone": "ru-central1-a"
+}
