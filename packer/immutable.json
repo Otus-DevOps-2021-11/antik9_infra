@@ -11,7 +11,9 @@
             "platform_id": "standard-v1",
             "use_ipv4_nat": true,
             "instance_cores": "{{ user `instance_cores` }}",
-            "instance_name": "{{ user `instance_name` }}"
+            "instance_name": "{{ user `instance_name` }}",
+            "subnet_id": "{{ user `subnet_id` }}",
+            "zone": "{{ user `zone` }}"
         }
     ],
     "provisioners": [
