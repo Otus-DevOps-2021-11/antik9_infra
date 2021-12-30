@@ -1,11 +1,14 @@
+/*
+// for newer version of the terraform
 terraform {
   required_providers {
     yandex = {
       source  = "yandex-cloud/yandex"
-      version = "~> 0.35"
+      version = "~> 0.61"
     }
   }
 }
+*/
 
 provider "yandex" {
   service_account_key_file = var.service_account_key_file
