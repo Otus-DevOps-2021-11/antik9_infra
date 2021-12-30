@@ -70,3 +70,15 @@ $ yc compute instance create \
     --metadata 'serial-port-enable=1' \
     --metadata-from-file user-data=data/cloud-config-redditapp
 ```
+
+
+### Terraform #1
+
+1. Deploy a reddit-app machine from a base image
+2. Parametrise terraform file with variables
+3. Add count for instances
+4. Deploy load-balancer with NGINX
+
+```
+$ terraform apply -auto-approve
+```
