@@ -1,0 +1,7 @@
+cloud_id                 = "qNCIH8Sf7Voc6ozzWZ4j"
+folder_id                = "I5r4sfs0VJ1S9BL1XNWs"
+public_key_path          = "~/.ssh/appuser.pub"
+private_key_path         = "~/.ssh/appuser"
+image_id                 = "IZKwFFN9muDMUeYUvXUm"
+subnet_id                = "JZZb7H26lLPyfXIkl1KJ"
+service_account_key_file = "./files/key.json"
