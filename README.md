@@ -82,3 +82,13 @@ $ yc compute instance create \
 ```
 $ terraform apply -auto-approve
 ```
+
+### Ansible #1
+
+1. Prepare inventory in different formats and ansible.cfg
+2. Convert inventory.yml to inventory.json
+3. Prepare script inventory.sh to generate dynamic inventory with `yc` utility
+
+```bash
+$ ./inventory.sh --list
+```
