@@ -1,0 +1,14 @@
+---
+- name: Install ruby
+  hosts: all
+  become: true
+  tasks:
+    - name: Install ruby packages
+      apt:
+        pkg:
+          - apt-transport-https
+          - build-essential
+          - ca-certificates
+          - ruby-full
+          - ruby-bundler
+        state: present
