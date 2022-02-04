@@ -1,0 +1,7 @@
+REPOSITORY                          TAG          IMAGE ID      CREATED         SIZE
+localhost/antik9/ubuntu-tmp-file    latest       52148a839234  28 seconds ago  65.5 MB
+docker.io/library/ubuntu            18.04        dcf4d4bef137  2 days ago      65.5 MB
+
+Docker image представляет собой собранный из слоев образ для запуска процесса. Основа это слои файловой системы, наложенные друг на друга.
+
+Docker container это запущенный процесс внутри окружения. Большая часть inspect говорит о параметрах, в которых выполняется уже запущенный контейнер.
