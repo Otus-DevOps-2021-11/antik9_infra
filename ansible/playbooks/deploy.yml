@@ -3,7 +3,7 @@
   hosts: app
   become: true
   vars:
-    user: ubuntu
+    user: "{{ user }}"
   tasks:
     - name: Install git on app server
       apt:
